@@ -1,0 +1,110 @@
+-> Web3.0 has the potential to change the internet As we know it , forever 
+-> You are still early in catching the trend right now 
+-> Acquire the skills and then get high paying jobs 
+-> Or create your own web3.0 project and make money 
+
+So Im making new web3.0 project  :- 
+1). With a stunning design 
+2). Connected to blockchain
+3). MetaMask Pairing  
+4). Interaction with smart contracts 
+5). Sending Ethereum through the blockchain network 
+6). Writing Solidity code  
+and much more....
+
+* What are the pre-requisites ? 
+-> Do not worry This course is entirely beginner-friendly. No Web3.0 , Blockchain or Solidity Knowledge required. Think of it as your first real blockchain application. We are going to start easy and then move to more complex topics. 
+
+* What we will learn from this project ?
+1). How to connect a regular reactJS application to the blockchain
+2). How to pair reactJs application with MetaMask wallet (using MetaMask)
+3). You'll also learn how to write Smart Contracts on Ethereum network using Solidity programming language 
+
+Verdict :- You'll learn how to create a full fleged web3 application. That allows user to send transactions through the blockchain. Each transaction will be paired with a gift and it'll be forever stored on the blockchain. In the end we will also deploy the application so that you can share it with your friends, put it on your portfolio and get a job. One can also turn this into a real Web3.0 application that other people can use.
+
+Maja Ayega lets start it....
+
+Visit Website :- https://vitejs.dev/guide/
+
+Now Whats vite ? 
+-> Vite is new technology which helps us to create a react app more fast and run it in few seconds. Lets try it out how it is .... 
+
+1). npm init vite@latest
+2). It will prompt you to enter Project name (If you are in current project name folder just enter "./" )
+3). It will prompt you to enter the package name :- "Enter whatever name you want to enter" In my case its "kryptonite" )
+4). Then it will tell you to select a framework using (we can use up arrow and down arrow key to select a framework). In my case its react do I'll select react
+5). Then it will tell what type of react (In my case I selected normal "react")
+6). Now change directory (If you are not in proper directory).In my case Im in project directory so no need to cd.
+7). Now run command :- npm install (It will install all you dependencies etc)
+8). Now run command :- npm run dev (And boom your react app will be running in less that 1-2 seconds its super superrrr fast )
+
+I my still not sure how I have not heard about vite before.... 🤷‍♂️
+NOTE:- Trust me Vite is really helpful tool. Maja agaya use karke.... (Got to know something new)
+
+Now introducing one more interesting technology :- Tailwind CSS 
+* Now whats tailwind css ?
+-> It helps us to rapidly build modern websites without ever leaving your HTML/JSX. Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file. It's fast, flexible, and reliable — with zero-runtime.
+
+learn more about it :- https://tailwindcss.com/
+
+* Please bhai ache se niche vale link se hi karna nhi toh nhi ho payega 
+* Jo bhi steps die hai link main woh sarae ache se follow karlio toh hi hoga (Easy steps hai utna hard nhi hai) 
+-> Download / Installation :- https://tailwindcss.com/docs/guides/vite (Its proper guide please visit if you want to know how to install tailwind)
+
+// Now client part is over 
+
+* Now cd to smart_contract 
+
+* run command -> npm init -y
+
+-> ctrl + w ( shortcut to close current open file ) Awesome hain yaar [Yaad Rakhna] 👌
+
+-> ctrl + e ( shorcut to open a file that we wish to open) Yeh toh bymistake press hogaya tha.😂
+
+// Now in this we are installing many dependencies inside the smart contract folder. dependencies name :- 
+1). hardhat
+2). nomiclabs/hardhat-waffle
+3). ethereum-waffle
+4). chai
+5). nomiclabs/hardhat-ethers 
+6). ethers
+
+// Now main question :- 
+What's HardHat ? 
+-> Its the Ethereum development environment for professionals
+
+-> Run Solidity locally
+Easily deploy your contracts, run tests and debug Solidity code without dealing with live environments. Hardhat Network is a local Ethereum network designed for development.
+
+-> Debugging-first
+Hardhat is the best choice for Solidity debugging. You get Solidity stack traces, console.log and explicit error messages when transactions fail.
+
+-> Extreme flexibility
+Change anything you like. Even entire out-of-the-box tasks, or just parts of them. Flexible and customizable design, with little constraints.
+
+-> Bring your own tools
+Designed to make integrations easy, Hardhat allows you to keep using your existing tools while enabling deeper interoperability between them.
+
+-> To check whether hardhat is installed successfully or not :- run command => npm hardhat 
+-> To check whether hardhat is running fine or not :- run command => npm hardhat test
+
+// Here in this project we are also using alchemy 
+* Now Whats Alchemy ? 
+-> Alchemy is a powerful blockchain developer platform providing a suite of developer tools. Developers building apps which interact with Ethereum can use Alchemy's powerful APIs to supercharge their apps, and leverage features not available in vanilla nodes. Its same like Infura 
+
+// Using @nomiclabs/hardhat-waffle with require statement 
+=> require("@nomiclabs/hardhat-waffle")
+Now whats it ? 
+-> You can use this plugin to build smart contract tests using Waffle in Hardhat, taking advantage of both.
+This plugin adds a Hardhat-ready version of Waffle to the Hardhat Runtime Environment, and automatically initializes the Waffle Chai matchers
+
+// We are making folder name context in this our front-end will communicate with smart contract  
+
+
+
+
+
+
+
+
+
